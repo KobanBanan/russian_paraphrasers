@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name="russian_paraphraser",
+    name="russian_paraphrasers",
     version="0.0.1",
     author="Nikitin Alexey",
     author_email="alenush93@gmail.com",
