@@ -38,7 +38,7 @@ def range_by_cs(sentences, sent, smodel, threshold=0.9):
         for sentence, embedding in zip(sentences, sentence_embeddings):
             if sent not in sentence:
                 if SequenceMatcher(None, sent, sentence).ratio() < 0.95:
-                    score = 1 - distance.cosine(embedding, origin_emb)
+                    score = 1 - distance.cosine(embedding, origin_emb.flatten())
                     if score >= threshold:
                         if score != 1.0:
                             if [score, sentence] not in best_cands:
