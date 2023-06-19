@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setup(
-    name="russian_paraphrasers",
-    version="0.0.3",
-    author="Alenusch",
+    name="russian_paraphraser",
+    version="0.0.1",
+    author="Nikitin Alexey",
     author_email="alenush93@gmail.com",
     description="Russian Paraphrasers (based on ru-gpt, mt5)",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/RussianNLP/russian_paraphrasers",
+    url="https://github.com/KobanBanan/russian_paraphrasers",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
